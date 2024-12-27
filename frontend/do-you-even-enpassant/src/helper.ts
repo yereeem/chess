@@ -1,0 +1,1 @@
+export const getCharacter = (file: number): String => String.fromCharCode(file + 97);
