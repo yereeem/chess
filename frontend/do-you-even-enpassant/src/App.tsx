@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "../app/global.css"
 import HomePage from "./pages/home-page/HomePage"
-import GameBoardPage from "./pages/game-board-page/GameBoardPage"
+import GameboardPage from "./pages/game-board-page/GameboardPage"
 
 export default function App() {
 
@@ -11,7 +11,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />}/>
-          <Route path="game" element={<GameBoardPage />}/>
+          <Route path="game" element={<GameboardPage />}/>
         </Routes>
       </BrowserRouter>
     </>

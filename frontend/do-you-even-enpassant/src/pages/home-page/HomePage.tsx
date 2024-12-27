@@ -11,10 +11,7 @@ const HomePage = () => {
 
     return (
         <>
-        <div>
-            {/* <img src="/pawn.svg" /> */}
-        </div>
-        <div>
+        <div className="h-dvh bg-zinc-500">
             <h1 className="text-5xl font-extrabold">Do You Even <span className="italic">Enpassant</span>?</h1>
             <Button variant={"default"} onClick={() => handleNavigate("/game")}>Play</Button>
         </div>

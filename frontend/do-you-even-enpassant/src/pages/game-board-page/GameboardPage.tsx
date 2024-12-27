@@ -2,7 +2,7 @@ import Board from "../../components/board/Board"
 import { Button } from "../../dyee-component-design-system/ui/button"
 import { useNavigate } from "react-router-dom"
 
-const GameBoardPage = () => {
+const GameboardPage = () => {
 
     const navigate = useNavigate();
 
@@ -12,7 +12,7 @@ const GameBoardPage = () => {
 
     return (
         <>
-        <div className="bg-zinc-500">
+        <div className="h-dvh bg-zinc-500">
             <div>This is the gameboard page...</div>
             <div>
                 TODO:
@@ -29,4 +29,4 @@ const GameBoardPage = () => {
     )
 }
 
-export default GameBoardPage
+export default GameboardPage

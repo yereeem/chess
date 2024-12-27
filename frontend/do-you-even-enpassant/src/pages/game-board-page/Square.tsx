@@ -8,8 +8,8 @@ interface SquareProps {
 
 const Square: React.FC<SquareProps> = ({rank, file, colour}) => {
     return (
-        <div className={`${colour} text-zinc-500`} key={`file-${+file}`}>
-            {rank}{file}
+        <div className={`${colour} text-zinc-500`} >
+            {rank}{file} {/** These are placeholders */}
         </div>
     )
 }
