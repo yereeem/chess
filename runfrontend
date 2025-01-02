@@ -1,0 +1,4 @@
+cd frontend
+cd do-you-even-enpassant
+
+npm run dev
